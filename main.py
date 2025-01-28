@@ -1,13 +1,10 @@
 # # streamlit run main.py
-from dotenv import load_dotenv
 import streamlit as st
 import pandas as pd
-import numpy as np
 import psycopg2
 import os
 
 
-load_dotenv() 
 DATABASE_URL = os.getenv("DATABASE_URL")
 USER = os.getenv("USER")
 PASSWORD = os.getenv("PASSWORD")
