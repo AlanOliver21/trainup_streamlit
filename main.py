@@ -1,6 +1,8 @@
 # # streamlit run main.py
+from dotenv import load_dotenv
 import streamlit as st
 import pandas as pd
+import numpy as np
 import psycopg2
 import os
 
